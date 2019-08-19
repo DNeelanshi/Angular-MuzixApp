@@ -1,0 +1,44 @@
+.mat-toolbar {
+    background-color: #e23932;
+    /* background-color: antiquewhite; */
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    height: 85px;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 99999999;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.mat-toolbar h1 {
+    font-size: 28px;
+    color: whitesmoke;
+    font-weight: 900;
+    margin: auto;
+}
+
+span{
+    font-size: 28px;
+    color: whitesmoke;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: 20px;
+}
+.trackbutton {
+    background-color: whitesmoke;
+    padding: 7px;
+    border-radius: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 18px;
+    color: #9e1414
+}
+.logo {
+    height: 70px;
+    width: 70px
+}

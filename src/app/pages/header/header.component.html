@@ -1,0 +1,23 @@
+<mat-toolbar>
+
+          <nav>
+                    <a routerLink="/home" routerLinkActive="active">  
+                          <img class ="logo" src="../assets/NetEase_Music_logo.svg.png">
+                    </a>
+               </nav>
+                         <h1>WELCOME TO MUZIX</h1>
+            
+              <span>
+                   <app-search-track></app-search-track>
+              </span>  
+              <nav>
+                    <a routerLink="/playlist" routerLinkActive="active">
+                     <button class="trackbutton" (click)="addtrack()">                      
+                         My playlist</button>
+                    </a>
+              </nav>
+                
+      
+      </mat-toolbar>
+
+        <router-outlet></router-outlet>

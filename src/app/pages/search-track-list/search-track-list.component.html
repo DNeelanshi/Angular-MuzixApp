@@ -1,0 +1,27 @@
+<div class="playlist">
+        <article>Search List</article>
+      <span class="cardlist">   
+        <div  style="margin: auto;padding: 6px;" *ngFor="let item of tracks;let i = index">
+      <mat-card class="example-card">
+              <mat-card-header>
+                <div mat-card-avatar class="example-header-image"></div>
+                <mat-card-title>Music Tracks</mat-card-title>
+                <mat-card-subtitle>By Muzix</mat-card-subtitle>
+              </mat-card-header>
+              <img mat-card-image src="../assets/o-MUSIC-HEART-570.jpg" alt="Photo of a Musicx">
+              <mat-card-content>
+                <mat-card-title>{{item.name}}</mat-card-title>
+                <mat-card-subtitle>By {{item.artist}} </mat-card-subtitle>
+              </mat-card-content>
+              <mat-card-actions>
+                <button mat-button (click)="addtofav(item,i)">+Add to Wishlist</button>
+              </mat-card-actions>
+            </mat-card>
+          </div>
+                      </span>
+                      <!-- <h1>More</h1> -->
+                  </div>
+
+
+
+
